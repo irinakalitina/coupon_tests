@@ -1,0 +1,365 @@
+<html>
+<head><style type='text/css'>
+body, table {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 12;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    font-style: italic;
+}
+
+.selected {
+    background-color: #ffffcc;
+}
+
+.status_done {
+    background-color: #eeffee;
+}
+
+.status_passed {
+    background-color: #ccffcc;
+}
+
+.status_failed {
+    background-color: #ffcccc;
+}
+
+.breakpoint {
+    background-color: #cccccc;
+    border: 1px solid black;
+}
+</style><title>Test suite results</title></head>
+<body>
+<h1>Test suite results </h1>
+
+<table>
+<tr>
+<td>result:</td>
+<td>passed</td>
+</tr>
+<tr>
+<td>totalTime:</td>
+<td>27</td>
+</tr>
+<tr>
+<td>numTestTotal:</td>
+<td>5</td>
+</tr>
+<tr>
+<td>numTestPasses:</td>
+<td>5</td>
+</tr>
+<tr>
+<td>numTestFailures:</td>
+<td>0</td>
+</tr>
+<tr>
+<td>numCommandPasses:</td>
+<td>4</td>
+</tr>
+<tr>
+<td>numCommandFailures:</td>
+<td>0</td>
+</tr>
+<tr>
+<td>numCommandErrors:</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Selenium Version:</td>
+<td>2.53</td>
+</tr>
+<tr>
+<td>Selenium Revision:</td>
+<td>.1</td>
+</tr>
+<tr>
+<td>
+<table id="suiteTable" class="selenium" cellspacing="1" cellpadding="1" border="1"><tbody>
+<tr class="title status_passed"><td><b>Test Suite</b></td></tr>
+<tr class="  status_passed"><td><a href="#testresult0">Litecart</a></td></tr>
+<tr class="  status_passed"><td><a href="#testresult1">1 test case</a></td></tr>
+<tr class="  status_passed"><td><a href="#testresult2">2 test case</a></td></tr>
+<tr class="  status_passed"><td><a href="#testresult3">3 test case</a></td></tr>
+<tr class="  status_passed"><td><a href="#testresult4">4 test case</a></td></tr>
+</tbody></table>
+
+
+</td>
+<td>&nbsp;</td>
+</tr>
+</table><table><tr>
+<td><a name="testresult0">Litecart.html</a><br/><div>
+<table id="suiteTable" class="selenium" cellspacing="1" cellpadding="1" border="1"><tbody>
+<tr class="title status_passed"><td><b>Test Suite</b></td></tr>
+<tr><td><a href="Litecart.html">Litecart</a></td></tr>
+<tr><td><a href="Selenium/1 test case.html">1 test case</a></td></tr>
+<tr><td><a href="Selenium/2 test case.html">2 test case</a></td></tr>
+<tr><td><a href="Selenium/3 test case.html">3 test case</a></td></tr>
+<tr><td><a href="Selenium/4 test case.html">4 test case</a></td></tr>
+</tbody></table>
+
+
+</div></td>
+<td>&nbsp;</td>
+</tr><tr>
+<td><a name="testresult1">Selenium/1 test case.html</a><br/><div>
+<table cellspacing="1" cellpadding="1" border="1">
+<thead>
+<tr class="title status_passed"><td rowspan="1" colspan="3">1 test case</td></tr>
+</thead><tbody>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>open</td>
+	<td>/oc-panel/auth/login</td>
+	<td></td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>type</td>
+	<td>xpath=(//input[@name='email'])[4]</td>
+	<td>demo@open-eshop.com</td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>type</td>
+	<td>xpath=(//input[@name='password'])[2]</td>
+	<td>demo</td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>clickAndWait</td>
+	<td>xpath=(//button[@type='submit'])[4]</td>
+	<td></td>
+</tr>
+<tr style="cursor: pointer;" class="  status_passed">
+	<td>assertElementPresent</td>
+	<td>xpath=(//a[@href='http://open-eshop.stqa.ru/oc-panel'])[2]</td>
+	<td></td>
+</tr>
+</tbody></table>
+
+
+</div></td>
+<td>&nbsp;</td>
+</tr><tr>
+<td><a name="testresult2">Selenium/2 test case.html</a><br/><div>
+<table cellspacing="1" cellpadding="1" border="1">
+<thead>
+<tr class="title status_passed"><td rowspan="1" colspan="3">2 test case</td></tr>
+</thead><tbody>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>open</td>
+	<td>/oc-panel</td>
+	<td></td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>click</td>
+	<td>css=span.title-txt.active</td>
+	<td></td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>click</td>
+	<td>//div[@id='collapseOne']/div/table/tbody/tr[4]/td/li/a/span</td>
+	<td></td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>clickAndWait</td>
+	<td>//div[@id='content']/a</td>
+	<td></td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>click</td>
+	<td>id=name</td>
+	<td></td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>type</td>
+	<td>id=name</td>
+	<td>Coupon Kalitina 2</td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>type</td>
+	<td>id=discount_amount</td>
+	<td>15%</td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>type</td>
+	<td>name=valid_date</td>
+	<td>20170811</td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>clickAndWait</td>
+	<td>name=submit</td>
+	<td></td>
+</tr>
+<tr style="cursor: pointer;" class="  status_passed">
+	<td>assertTable</td>
+	<td>//div[@id='content']/div[4]/div/div/table.1.0</td>
+	<td>Coupon Kalitina 2</td>
+</tr>
+</tbody></table>
+
+
+</div></td>
+<td>&nbsp;</td>
+</tr><tr>
+<td><a name="testresult3">Selenium/3 test case.html</a><br/><div>
+<table cellspacing="1" cellpadding="1" border="1">
+<thead>
+<tr class="title status_passed"><td rowspan="1" colspan="3">3 test case</td></tr>
+</thead><tbody>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>open</td>
+	<td>/oc-panel/Coupon</td>
+	<td></td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>click</td>
+	<td>id=content</td>
+	<td></td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>type</td>
+	<td>name=name</td>
+	<td>Coupon Kalitina 2</td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>clickAndWait</td>
+	<td>css=button.btn</td>
+	<td></td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>click</td>
+	<td>css=i.glyphicon.glyphicon-trash</td>
+	<td></td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>click</td>
+	<td>css=button.confirm</td>
+	<td></td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr style="cursor: pointer;" class="  status_passed">
+	<td>assertElementNotPresent</td>
+	<td>css=#tr9920 &gt; td</td>
+	<td></td>
+</tr>
+</tbody></table>
+
+
+</div></td>
+<td>&nbsp;</td>
+</tr><tr>
+<td><a name="testresult4">Selenium/4 test case.html</a><br/><div>
+<table cellspacing="1" cellpadding="1" border="1">
+<thead>
+<tr class="title status_passed"><td rowspan="1" colspan="3">4 test case</td></tr>
+</thead><tbody>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>open</td>
+	<td>/oc-panel/Coupon?name=Coupon+Kalitina+2</td>
+	<td></td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>click</td>
+	<td>css=span.caret</td>
+	<td></td>
+</tr>
+<tr style="cursor: pointer;" class="  status_done">
+	<td>clickAndWait</td>
+	<td>link=Logout</td>
+	<td></td>
+</tr>
+<tr style="cursor: pointer;" class="  status_passed">
+	<td>assertElementNotPresent</td>
+	<td>//div[@id='mobile-menu-panel']/ul[2]/li/a</td>
+	<td></td>
+</tr>
+</tbody></table>
+
+
+</div></td>
+<td>&nbsp;</td>
+</tr></table><pre>
+info: Starting test /selenium-server/tests/Litecart.html
+info: Starting test /selenium-server/tests/Selenium/1%20test%20case.html
+info: Executing: |open | /oc-panel/auth/login |  |
+info: Selenium 1.0 (Core, RC, etc) is no longer under active development. Please update to WebDriver ASAP
+info: Executing: |type | xpath=(//input[@name=&apos;email&apos;])[4] | demo@open-eshop.com |
+info: Executing: |type | xpath=(//input[@name=&apos;password&apos;])[2] | demo |
+info: Executing: |clickAndWait | xpath=(//button[@type=&apos;submit&apos;])[4] |  |
+info: Selenium 1.0 (Core, RC, etc) is no longer under active development. Please update to WebDriver ASAP
+info: Executing: |assertElementPresent | xpath=(//a[@href=&apos;http://open-eshop.stqa.ru/oc-panel&apos;])[2] |  |
+info: Starting test /selenium-server/tests/Selenium/2%20test%20case.html
+info: Executing: |open | /oc-panel |  |
+info: Executing: |click | css=span.title-txt.active |  |
+info: Selenium 1.0 (Core, RC, etc) is no longer under active development. Please update to WebDriver ASAP
+info: Executing: |click | //div[@id=&apos;collapseOne&apos;]/div/table/tbody/tr[4]/td/li/a/span |  |
+info: Executing: |pause | 2000 |  |
+info: Executing: |clickAndWait | //div[@id=&apos;content&apos;]/a |  |
+info: Executing: |click | id=name |  |
+info: Executing: |type | id=name | Coupon Kalitina 2 |
+info: Selenium 1.0 (Core, RC, etc) is no longer under active development. Please update to WebDriver ASAP
+info: Executing: |type | id=discount_amount | 15% |
+info: Executing: |type | name=valid_date | 20170811 |
+info: Selenium 1.0 (Core, RC, etc) is no longer under active development. Please update to WebDriver ASAP
+info: Executing: |clickAndWait | name=submit |  |
+info: Executing: |assertTable | //div[@id=&apos;content&apos;]/div[4]/div/div/table.1.0 | Coupon Kalitina 2 |
+info: Starting test /selenium-server/tests/Selenium/3%20test%20case.html
+info: Executing: |open | /oc-panel/Coupon |  |
+info: Selenium 1.0 (Core, RC, etc) is no longer under active development. Please update to WebDriver ASAP
+info: Executing: |click | id=content |  |
+info: Executing: |type | name=name | Coupon Kalitina 2 |
+info: Executing: |clickAndWait | css=button.btn |  |
+info: Selenium 1.0 (Core, RC, etc) is no longer under active development. Please update to WebDriver ASAP
+info: Executing: |pause | 2000 |  |
+info: Selenium 1.0 (Core, RC, etc) is no longer under active development. Please update to WebDriver ASAP
+info: Executing: |click | css=i.glyphicon.glyphicon-trash |  |
+info: Executing: |pause | 2000 |  |
+info: Executing: |click | css=button.confirm |  |
+info: Executing: |pause | 2000 |  |
+info: Executing: |assertElementNotPresent | css=#tr9920 &gt; td |  |
+info: Starting test /selenium-server/tests/Selenium/4%20test%20case.html
+info: Executing: |open | /oc-panel/Coupon?name=Coupon+Kalitina+2 |  |
+info: Executing: |pause | 2000 |  |
+info: Executing: |click | css=span.caret |  |
+info: Executing: |clickAndWait | link=Logout |  |
+info: Selenium 1.0 (Core, RC, etc) is no longer under active development. Please update to WebDriver ASAP
+info: Executing: |assertElementNotPresent | //div[@id=&apos;mobile-menu-panel&apos;]/ul[2]/li/a |  |
+</pre></body></html>
